@@ -1,16 +1,14 @@
 <div align="center">
 
-# Copilot, Past the Prompt
+# Microsoft Copilot · Agentic Workflows
 
----
+### From prompts to autonomous execution.
 
-### An exploration of work that starts with the outcome, not the instructions.
+An independent product and UX case study exploring how an AI assistant can understand intent, coordinate multi-step work, and deliver outcomes—with people in control at every consequential step.
 
-Eight desktop and mobile concepts for delegating a task, following its progress, and reviewing the finished work.
+> Independent portfolio concept. Not affiliated with or endorsed by Microsoft.
 
 **[Open the portfolio](https://guy-d7.github.io/Microsoft-Copilot-PRD/) · [Browse the screens](https://guy-d7.github.io/Microsoft-Copilot-PRD/#prototype) · [Read the product context](context.md)**
-
-<sub>Independent portfolio concept. Not affiliated with or endorsed by Microsoft.</sub>
 
 </div>
 
