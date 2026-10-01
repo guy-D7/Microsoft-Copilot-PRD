@@ -13,6 +13,14 @@ An independent product and UX case study exploring how an AI assistant can under
 </div>
 
 ## Overview
+
+<p align="center">
+	<a href="assets/screenshots/desktop-copilot_agent_desktop_command_center.png"><img src="assets/screenshots/desktop-copilot_agent_desktop_command_center.png" alt="Desktop Copilot agent command center prototype" width="70%" /></a>
+	&nbsp;&nbsp;
+	<a href="assets/screenshots/mobile-copilot_agent_command_center.png"><img src="assets/screenshots/mobile-copilot_agent_command_center.png" alt="Mobile Copilot agent command center prototype" width="18%" /></a>
+</p>
+<p align="center"><sub>DESKTOP · Workspace home</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>MOBILE · Mobile home</sub></p>
+
 This repository documents and showcases a concept for an AI productivity experience focused on autonomous task execution. It combines product thinking, UX strategy, interaction design, architecture framing, and a polished portfolio presentation.
 
 The goal is to present a credible, recruiter-friendly portfolio artifact that demonstrates the ability to think beyond feature delivery and toward end-to-end user outcomes, trust, and workflow automation.
