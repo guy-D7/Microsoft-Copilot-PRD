@@ -1,15 +1,18 @@
-# Microsoft Copilot · Agentic Workflows
+<div align="center">
 
-### From prompts to autonomous execution.
+# Copilot, Past the Prompt
 
-An independent product and UX case study exploring how an AI assistant can understand intent, coordinate multi-step work, and deliver outcomes—with people in control at every consequential step.
+---
 
-> Independent portfolio concept. Not affiliated with or endorsed by Microsoft.
+### An exploration of work that starts with the outcome, not the instructions.
 
-<p align="center">
-	<img src="assets/screenshots/desktop-copilot_agent_desktop_command_center.png" alt="Desktop command center concept" width="72%" />
-	<img src="assets/screenshots/mobile-copilot_agent_command_center.png" alt="Mobile command center concept" width="19%" />
-</p>
+Eight desktop and mobile concepts for delegating a task, following its progress, and reviewing the finished work.
+
+**[Open the portfolio](https://guy-d7.github.io/Microsoft-Copilot-PRD/) · [Browse the screens](https://guy-d7.github.io/Microsoft-Copilot-PRD/#prototype) · [Read the product context](context.md)**
+
+<sub>Independent portfolio concept. Not affiliated with or endorsed by Microsoft.</sub>
+
+</div>
 
 ## Overview
 This repository documents and showcases a concept for an AI productivity experience focused on autonomous task execution. It combines product thinking, UX strategy, interaction design, architecture framing, and a polished portfolio presentation.
@@ -69,6 +72,9 @@ Then open:
 ```text
 http://localhost:8000
 ```
+
+## Live portfolio
+The included workflow publishes the interactive prototype at [guy-d7.github.io/Microsoft-Copilot-PRD](https://guy-d7.github.io/Microsoft-Copilot-PRD/). For the first deployment, enable **Settings → Pages → Build and deployment → Source → GitHub Actions**. Subsequent site updates pushed to `main` deploy automatically.
 
 ## Portfolio positioning
 This project is designed to showcase:
