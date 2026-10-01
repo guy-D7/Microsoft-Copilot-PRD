@@ -74,7 +74,7 @@ http://localhost:8000
 ```
 
 ## Live portfolio
-The included workflow publishes the interactive prototype at [guy-d7.github.io/Microsoft-Copilot-PRD](https://guy-d7.github.io/Microsoft-Copilot-PRD/). For the first deployment, enable **Settings → Pages → Build and deployment → Source → GitHub Actions**. Subsequent site updates pushed to `main` deploy automatically.
+The included workflow publishes the interactive prototype at [guy-d7.github.io/Microsoft-Copilot-PRD](https://guy-d7.github.io/Microsoft-Copilot-PRD/). To launch it, enable **Settings → Pages → Build and deployment → Source → GitHub Actions**, then run **Deploy portfolio to GitHub Pages** once from the Actions tab. Subsequent site updates pushed to `main` deploy automatically.
 
 ## Portfolio positioning
 This project is designed to showcase:
