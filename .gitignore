@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Node / build output
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Full Stitch source workspaces and archives (curated screens live in assets/screenshots)
+stitch_copilot_agent_ux_platform*/
+stitch_copilot_agent_ux_platform*.zip

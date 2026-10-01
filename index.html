@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft Copilot · Agentic Workflows — Product Case Study</title>
+    <meta
+      name="description"
+      content="An independent portfolio case study exploring Copilot-style agentic workflows across desktop and mobile."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-block">
+        <div class="brand-mark">
+          <span class="brand-inner"></span>
+        </div>
+        <div>
+          <div class="brand-name">Copilot</div>
+          <div class="brand-tag">Autonomous Workflows</div>
+        </div>
+      </div>
+      <nav class="top-links">
+        <a href="#story">Story</a>
+        <a href="#prototype">Prototype</a>
+        <a href="#architecture">Architecture</a>
+      </nav>
+      <a class="header-button" href="#prototype">View prototype</a>
+    </header>
+
+    <main class="portfolio-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Product Portfolio • UX Prototype</p>
+          <h1>From prompts to autonomous execution.</h1>
+          <p class="subtitle">
+            A concept for an AI work system that turns user intent into complete business actions across apps,
+            tools, approvals, and long-running workflows.
+          </p>
+          <div class="cta-row">
+            <a class="primary-btn" href="#prototype">Explore the flow</a>
+            <a class="secondary-btn" href="context.md">Read product brief</a>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-box">
+              <strong>3x</strong>
+              <span>faster task orchestration</span>
+            </div>
+            <div class="stat-box">
+              <strong>45s</strong>
+              <span>to initial execution</span>
+            </div>
+            <div class="stat-box">
+              <strong>4-step</strong>
+              <span>task completion model</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/screenshots/desktop-copilot_agent_desktop_command_center.png" alt="Desktop Copilot command center UI prototype" />
+        </div>
+      </section>
+
+      <section id="story" class="story-grid">
+        <div class="section-card highlight">
+          <p class="card-kicker">Problem</p>
+          <h2>Users ask AI for answers, but work still happens manually.</h2>
+          <p>
+            The opportunity is to move from chat-based interactions to agentic work execution: tasks that understand intent,
+            plan across systems, verify outputs, and continue without constant user intervention.
+          </p>
+        </div>
+
+        <div class="section-card">
+          <p class="card-kicker">Vision</p>
+          <h2>Outcome-first AI labor for real work.</h2>
+          <p>
+            The product treats Copilot as a trusted executive assistant that can interpret goals, coordinate tools,
+            and deliver work in the user’s native environment.
+          </p>
+        </div>
+      </section>
+
+      <section class="feature-strip">
+        <div class="feature-item">
+          <span class="icon">◎</span>
+          <div>
+            <h3>Outcome-driven prompting</h3>
+            <p>Users describe the result, not the process.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span class="icon">↻</span>
+          <div>
+            <h3>Long-running work</h3>
+            <p>State and progress persist across execution.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span class="icon">✓</span>
+          <div>
+            <h3>Approval + verification</h3>
+            <p>High-risk actions stay explainable and reviewable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="prototype" class="prototype-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Sample prototype</p>
+            <h2>A closer look at the workflow</h2>
+          </div>
+          <span class="pill">08 curated screens</span>
+        </div>
+
+        <div class="prototype-curation">
+          <div class="curation-copy">
+            <p class="curation-title">Explore the prototype</p>
+            <p class="curation-description">Follow the experience from the first request to a reusable outcome.</p>
+          </div>
+          <div class="gallery-controls">
+            <div class="filter-group" role="group" aria-label="Filter prototype screens">
+              <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All <span>08</span></button>
+              <button class="filter-btn" type="button" data-filter="desktop" aria-pressed="false">Desktop <span>04</span></button>
+              <button class="filter-btn" type="button" data-filter="mobile" aria-pressed="false">Mobile <span>04</span></button>
+            </div>
+            <span class="workspace-note">A considered selection from the full design exploration.</span>
+          </div>
+        </div>
+
+        <div class="screen-grid" aria-live="polite">
+          <article class="screen-card" data-group="desktop">
+            <div class="screen-stage desktop-stage">
+              <div class="browser-frame">
+                <div class="browser-chrome" aria-hidden="true"><span></span><span></span><span></span><div class="browser-address">copilot · command center</div></div>
+                <img src="assets/screenshots/desktop-copilot_agent_desktop_command_center.png" alt="Desktop Copilot command center for starting and organizing agentic work" />
+              </div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>01 · Start</span><span class="device-label">Desktop</span></div>
+              <h3>Start from the command center</h3>
+              <p>Bring delegated work and its next steps into one clear workspace.</p>
+            </div>
+          </article>
+
+          <article class="screen-card mobile-screen" data-group="mobile">
+            <div class="screen-stage mobile-stage">
+              <div class="phone-frame"><span class="phone-speaker" aria-hidden="true"></span><img src="assets/screenshots/mobile-copilot_agent_command_center.png" alt="Mobile Copilot command center for starting a delegated task" /></div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>01 · Start</span><span class="device-label">Mobile</span></div>
+              <h3>Set the outcome</h3>
+              <p>Turn a natural-language request into a clear intention.</p>
+            </div>
+          </article>
+
+          <article class="screen-card mobile-screen" data-group="mobile">
+            <div class="screen-stage mobile-stage">
+              <div class="phone-frame"><span class="phone-speaker" aria-hidden="true"></span><img src="assets/screenshots/mobile-task_understanding_plan.png" alt="Mobile view of task understanding and the proposed execution plan" /></div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>02 · Plan</span><span class="device-label">Mobile</span></div>
+              <h3>Review the plan</h3>
+              <p>See how the agent interpreted the goal and what it will do next.</p>
+            </div>
+          </article>
+
+          <article class="screen-card mobile-screen" data-group="mobile">
+            <div class="screen-stage mobile-stage">
+              <div class="phone-frame"><span class="phone-speaker" aria-hidden="true"></span><img src="assets/screenshots/mobile-active_task_execution.png" alt="Mobile task execution view with live progress" /></div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>03 · Execute</span><span class="device-label">Mobile</span></div>
+              <h3>Stay in the loop</h3>
+              <p>Track progress and task state as the work moves forward.</p>
+            </div>
+          </article>
+
+          <article class="screen-card" data-group="desktop">
+            <div class="screen-stage desktop-stage">
+              <div class="browser-frame">
+                <div class="browser-chrome" aria-hidden="true"><span></span><span></span><span></span><div class="browser-address">copilot · execution monitor</div></div>
+                <img src="assets/screenshots/desktop-active_task_execution_fallback_monitoring.png" alt="Desktop workflow execution dashboard with fallback monitoring and recovery status" />
+              </div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>03 · Monitor</span><span class="device-label">Desktop</span></div>
+              <h3>Monitor long-running work</h3>
+              <p>Keep task health, progress, and recovery paths visible.</p>
+            </div>
+          </article>
+
+          <article class="screen-card mobile-screen" data-group="mobile">
+            <div class="screen-stage mobile-stage">
+              <div class="phone-frame"><span class="phone-speaker" aria-hidden="true"></span><img src="assets/screenshots/mobile-approval_request.png" alt="Mobile approval request for reviewing an agent action" /></div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>04 · Approve</span><span class="device-label">Mobile</span></div>
+              <h3>Keep control on the go</h3>
+              <p>Review an approval request before the agent proceeds.</p>
+            </div>
+          </article>
+
+          <article class="screen-card" data-group="desktop">
+            <div class="screen-stage desktop-stage">
+              <div class="browser-frame">
+                <div class="browser-chrome" aria-hidden="true"><span></span><span></span><span></span><div class="browser-address">copilot · approval checkpoint</div></div>
+                <img src="assets/screenshots/desktop-consequential_action_approval_checkpoint.png" alt="Desktop consequential-action approval checkpoint with review details" />
+              </div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>04 · Approve</span><span class="device-label">Desktop</span></div>
+              <h3>Review consequential actions</h3>
+              <p>Make high-impact actions transparent before they are carried out.</p>
+            </div>
+          </article>
+
+          <article class="screen-card" data-group="desktop">
+            <div class="screen-stage desktop-stage">
+              <div class="browser-frame">
+                <div class="browser-chrome" aria-hidden="true"><span></span><span></span><span></span><div class="browser-address">copilot · completed workflow</div></div>
+                <img src="assets/screenshots/desktop-task_completed_save_as_reusable_agent.png" alt="Desktop completed-task view with an option to save the workflow as a reusable agent" />
+              </div>
+            </div>
+            <div class="caption">
+              <div class="screen-meta"><span>05 · Deliver</span><span class="device-label">Desktop</span></div>
+              <h3>Make good work repeatable</h3>
+              <p>Close the loop with a clear result and a reusable agent.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="workflow-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Flow model</p>
+            <h2>How the product works</h2>
+          </div>
+        </div>
+
+        <div class="workflow-steps">
+          <div class="step-card">
+            <span class="step-number">1</span>
+            <h3>Understand</h3>
+            <p>Convert the user request into a clear delegated goal and execution intent.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">2</span>
+            <h3>Plan</h3>
+            <p>Create a structured multi-step workflow with dependencies and connected tools.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">3</span>
+            <h3>Execute</h3>
+            <p>Run across apps, browser fallback, and system integrations with live verification.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">4</span>
+            <h3>Deliver</h3>
+            <p>Share results, request approval where needed, and save the workflow as a reusable agent.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="impact-panel">
+        <div>
+          <p class="eyebrow">Portfolio value</p>
+          <h2>Built to show strategic thinking, not just visual polish.</h2>
+        </div>
+        <ul>
+          <li>Product strategy grounded in user outcomes and adoption metrics</li>
+          <li>UX for agentic behavior, trust, and human approval checkpoints</li>
+          <li>System design across workflow orchestration, fallback execution, and state persistence</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Independent product design concept · Desktop + Mobile</p>
+      <a href="README.md">Open project README</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
