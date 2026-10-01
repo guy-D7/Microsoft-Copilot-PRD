@@ -32,13 +32,17 @@ The experience centers on a command center where the user describes the outcome 
 
 ## Explore the prototype
 
-The case-study gallery includes eight curated Stitch screens, sequenced from intent to completion:
+The gallery pairs each supplied screen with the stage of work it illustrates. Select a screen to view it at full size.
 
-| Desktop · 4 screens | Mobile · 4 screens |
-| --- | --- |
-| Command center, live monitoring, consequential-action approval, and task completion | Command center, task plan, live execution, and approval request |
+| State | Desktop concept | Mobile concept |
+| --- | --- | --- |
+| **Start** | [Workspace home](assets/screenshots/desktop-copilot_agent_desktop_command_center.png) | [Mobile home](assets/screenshots/mobile-copilot_agent_command_center.png) |
+| **Delegate** | No separate desktop plan screen was supplied | [Task delegation](assets/screenshots/mobile-task_understanding_plan.png) |
+| **Follow** | [Live execution](assets/screenshots/desktop-active_task_execution_fallback_monitoring.png) | [Mobile live task](assets/screenshots/mobile-active_task_execution.png) |
+| **Review** | [Approval checkpoint](assets/screenshots/desktop-consequential_action_approval_checkpoint.png) | [Approval request](assets/screenshots/mobile-approval_request.png) |
+| **Deliver** | [Completed work](assets/screenshots/desktop-task_completed_save_as_reusable_agent.png) | No mobile completion screen was supplied |
 
-Use the **All**, **Desktop**, and **Mobile** filters in the prototype to explore each view. Desktop screens use a browser frame; mobile screens use a phone frame.
+The interactive [portfolio gallery](https://guy-d7.github.io/Microsoft-Copilot-PRD/#prototype) also lets visitors filter by Desktop and Mobile; the first-time Pages setup is described below.
 
 ### Product principles
 - Say what, not how
